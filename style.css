@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F8FAFB;
+    background-color: #ffffffd7;
     padding: 1rem;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .form {
-    width: %;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,6 +117,7 @@ body {
 
 .input-box label,
 .gender-title h6 {
+
     font-size: 0.75rem;
     font-weight: 600;
     color: #000000c0;
@@ -129,8 +130,9 @@ body {
 .gender-group {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.62rem;
+    margin-top: 0.60rem;
     padding: 0 .5rem;
+    height: 37px;
 }
 
 .gender-input {
@@ -146,6 +148,45 @@ body {
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
+}
+
+
+.marital-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.marital-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.60rem;
+    padding: 0 .7rem;
+    height: 20px;
+}
+
+.marital-input {
+    display: flex;
+    align-items: center;
+}
+
+.marital-input input {
+    margin-right: 0.35rem;
+}
+
+.marital-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.box-termo {
+
+    
 }
 
 .continue-button button {
